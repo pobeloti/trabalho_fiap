@@ -4,11 +4,11 @@ application = Flask(__name__)
 
 @application.route("/")
 def index():
-    return "Your Flask App Works!"
+    return "Trabalho FIAP Cloud Computing!"
 
 @application.route("/hello")
 def hello():
-    return "Hello World!"
+    return "Olá Mundo!"
 
 
 if __name__ == "__main__":
