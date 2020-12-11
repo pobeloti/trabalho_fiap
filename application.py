@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def index():
-    return "Trabalho FIAP Cloud Computing 2ª Versão!"
+    return "Trabalho FIAP Cloud Computing 2ª Versão_PipeDevops!"
 
 @application.route("/hello")
 def hello():
